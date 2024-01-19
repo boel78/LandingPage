@@ -1,0 +1,98 @@
+body{
+    font-family: Roboto, sans-serif, 'Times New Roman';
+    margin: 0;
+}
+
+.Top{
+    background-color: #1F2937;
+    display: flex;
+    gap:240px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.Top img{
+    padding-top: 50px;
+    height: 165px;
+    width:25%;
+}
+
+.Header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    color: white;
+    flex-wrap: nowrap;
+}
+
+.Links{
+    margin-top: 30px;
+    display: flex;
+    gap:40px;
+}
+
+.Links a{
+    color: white;
+}
+
+.SiteInfo{
+    margin-left: 100px;
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.SiteInfo button{
+    width: 85px;
+    height: 28px;
+    background-color: #3882F6;
+    color:white;
+    border-radius: 8px;
+    border-style: none;
+    padding-left: 8px;
+
+}
+
+.Mid{
+    display: flex;
+    flex-direction: column;
+}
+
+.Mid h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Pictures{
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    gap: 50px;
+}
+
+.pic{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.pic img{
+    height: 200px;
+    width: 100%;
+}
+
+
+.Quote{
+    background-color: #E5E7EB;
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
